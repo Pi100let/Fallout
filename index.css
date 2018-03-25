@@ -1,0 +1,69 @@
+footer{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  background-color:yellow;
+  width:100%;
+  text-align:center;
+  min-height: 50px;
+  padding-top: 5px;
+}
+
+h1{
+  text-align:center;
+}
+
+h2{
+  text-align:center;
+}
+
+.floatRight{
+ width: 150px;
+ float: right;
+}
+.floatLeft{
+ width: 150px;
+ float: left;
+}
+
+body{
+  background-image:url("./img/background.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  padding: 10px;
+}
+
+h2:hover{
+  color: blue;
+}
+
+h1, h2{
+  transition: all 1s ease;
+}
+
+h1:hover{
+  color: brown;
+}
+
+#fallout1{
+  width:150px;
+  height:100px;
+}
+
+div{
+  transition: all 1s ease;
+}
+
+div:hover{
+  color: darkgreen;
+}
+
+img{
+  margin: 10px;
+}
+article{
+  background-color: white;
+  opacity: 0.6;
+  padding: 20px;
+ font-size: 20px;
+}
